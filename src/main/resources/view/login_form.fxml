@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="654.0" style="-fx-background-color: #FF76D875;" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.icet.controller.LoginFormController">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="356.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/loginside.png" />
+         </image>
+      </ImageView>
+      <!-- Rectangle with adjusted color -->
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#C74EB3" height="261.0" layoutX="400.0" layoutY="66.0" stroke="#C74EB3" strokeType="INSIDE" width="214.0" />
+
+      <!-- Label with color update -->
+      <Label layoutX="422.0" layoutY="88.0" text="Login">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Label>
+
+      <!-- Text fields with consistent styling -->
+      <TextField fx:id="txtUserName" layoutX="416.0" layoutY="160.0" prefHeight="25.0" prefWidth="169.0" promptText="User Name" />
+      <TextField fx:id="txtPassword" layoutX="416.0" layoutY="207.0" prefHeight="25.0" prefWidth="169.0" promptText="Password" />
+
+      <!-- Login Button with updated style -->
+      <JFXButton layoutX="455.0" layoutY="269.0" onAction="#btnLoginOnAction" prefHeight="25.0" prefWidth="107.0" style="-fx-background-color:#3D3D3D;" text="Login" textFill="#FFFFFF">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>

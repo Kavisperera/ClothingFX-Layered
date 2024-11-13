@@ -1,0 +1,55 @@
+.table-view {
+    -fx-background-color: #f0f0f0; /* Light gray background */
+    -fx-border-color: #66ccff; /* Changed border color */
+    -fx-border-width: 2px;
+    -fx-padding: 5px;
+}
+
+.table-view .column-header {
+    -fx-background-color: #66b3ff; /* Lighter blue for header */
+    -fx-text-fill: black; /* Changed text color to black */
+    -fx-font-weight: bold;
+    -fx-border-width: 0 0 2px 0;
+}
+
+.table-row-cell {
+    -fx-background-color: #ffccff; /* Lighter pink background */
+    -fx-border-color: #66ccff; /* Updated border color */
+}
+
+.table-row-cell:odd {
+    -fx-background-color: #ffe6f2; /* Light pink for odd rows */
+}
+
+.table-row-cell:even {
+    -fx-background-color: #ffccff; /* Pink for even rows */
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #66ccff; /* Blue for selected rows */
+    -fx-text-fill: white; /* Keep text white for contrast */
+}
+
+.table-cell {
+    -fx-border-color: #66ccff; /* Updated cell border color */
+    -fx-border-width: 0 1px 1px 0;
+    -fx-padding: 10px;
+    -fx-text-fill: #330066; /* Darker purple text */
+}
+
+.table-row-cell:hover {
+    -fx-background-color: #ff99cc; /* Hover effect in a pink shade */
+}
+
+.scroll-bar {
+    -fx-background-color: #e6e6e6; /* Light gray scrollbar */
+}
+
+.scroll-bar .thumb {
+    -fx-background-color: #66ccff; /* Updated thumb color to match the theme */
+}
+
+.table-view .column-header .label {
+    -fx-font-size: 14px;
+    -fx-text-fill: white; /* Keep header text white */
+}
